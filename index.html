@@ -94,7 +94,7 @@ The above copyright notice and this permission notice shall be included in all c
                 target="_blank"
               >
                 <i class="fa fa-linkedin"></i>
-                <p class="d-lg-none">LinkedIn</p>
+                LinkedIn
               </a>
             </li>
             <li class="nav-item">
@@ -107,7 +107,7 @@ The above copyright notice and this permission notice shall be included in all c
                 target="_blank"
               >
                 <i class="fa fa-github"></i>
-                <p class="d-lg-none">GitHub</p>
+                GitHub
               </a>
             </li>
           </ul>
@@ -182,10 +182,14 @@ The above copyright notice and this permission notice shall be included in all c
         <br />
       </div>
       <br />
-      <hr />
-      <div class="section profile-content" style="background-color: #f4f3ef;">
+      <br />
+      <br />
+      <div class="section profile-content" style="background-color: #873435; margin-right: 100px; margin-left: 100px; padding: 1px; border-radius: 25px;">
+      </div>  
+      <div class="section profile-content" style="background-color: #f4f3ef">  
         <!-- Projects -->
         <div>
+          <br />
           <br />
           <h2 class="text-center">Projects</h2>
           <br />
@@ -212,17 +216,21 @@ The above copyright notice and this permission notice shall be included in all c
                   >
                 </li>
                 <li class="nav-item">
+                  <a 
+                    class="nav-link" 
+                    data-toggle="tab" 
+                    href="#project_star_wars" 
+                    role="tab"
+                    >Star Wars</a
+                  >
+                </li>
+                <li class="nav-item">
                   <a
                     class="nav-link"
                     data-toggle="tab"
                     href="#project_ride_sharing"
                     role="tab"
                     >Ride-Sharing Service</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" data-toggle="tab" href="#follows" role="tab"
-                    >Star Wars</a
                   >
                 </li>
                 <li class="nav-item">
@@ -241,10 +249,6 @@ The above copyright notice and this permission notice shall be included in all c
         <!-- End Projects -->
         <!-- Tab panes -->
         <div class="tab-content">
-          <div class="tab-pane" id="follows" role="tabpanel">
-            <br />
-            <p class="text-center">Coming Soon...</p>
-          </div>
           <div
             class="tab-pane active text-center ml-auto mr-auto col-md-6"
             id="project_shop_floor"
@@ -255,7 +259,9 @@ The above copyright notice and this permission notice shall be included in all c
               Software system to process information related to industrial
               factories, namely i) production orders and their execution, ii)
               machines' working time, iii) consumptions and iv) produced
-              quantities. Based on a real-life problem.
+              quantities. Based on a real-life problem. Main application allows user 
+              interaction through a command-line interface (CLI). Applicatios were 
+              developed using Java and C.
             </p>
           </div>
           <div
@@ -279,6 +285,28 @@ The above copyright notice and this permission notice shall be included in all c
               >
               <a
                 href="https://github.com/francisco-f-silva/facerecognition"
+                class="btn btn-warning btn-round ml-2"
+                >Repository</a
+              >
+            </div>
+          </div>
+          <div
+            class="tab-pane text-center ml-auto mr-auto col-md-6"
+            id="project_star_wars"
+            role="tabpanel"
+          >
+            <h6 class="text-muted">January 2020</h6>
+            <p class="text-muted">
+              Single page application created using React. It uses the Star Wars API (swapi) in order to obtain some planets from the Star Wars' world and compare their characteristics side by side.
+            </p>
+            <div class="mt-3">
+              <a
+                href="https://francisco-f-silva.github.io/starwars/"
+                class="btn btn-warning btn-round mr-2"
+                >Project</a
+              >
+              <a
+                href="https://github.com/francisco-f-silva/starwars"
                 class="btn btn-warning btn-round ml-2"
                 >Repository</a
               >
@@ -313,7 +341,7 @@ The above copyright notice and this permission notice shall be included in all c
         </div>
       </div>
     </div>
-    <footer class="footer" style="background-color: #f4f3ef;">
+    <footer class="footer" style="background-color: #f4f3ef; opacity: 0.5">
       <div class="container">
         <div class="row">
           <nav class="footer-nav">
@@ -322,9 +350,6 @@ The above copyright notice and this permission notice shall be included in all c
                 <a href="https://www.creative-tim.com" target="_blank"
                   >Creative Tim</a
                 >
-              </li>
-              <li>
-                <a href="http://blog.creative-tim.com/" target="_blank">Blog</a>
               </li>
               <li>
                 <a href="https://www.creative-tim.com/license" target="_blank"
