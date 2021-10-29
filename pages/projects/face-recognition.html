@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8" />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="../../assets/img//apple-icon.png"
+    />
+    <link rel="icon" type="image/png" href="../../assets/img//profile_icon.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>
+      Project - Face Recognition
+    </title>
+    <meta
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no"
+      name="viewport"
+    />
+    <!--     Fonts and icons     -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200"
+      rel="stylesheet"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <!-- CSS Files -->
+    <link href="../../assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../assets/css/paper-kit.css?v=2.2.0" rel="stylesheet" />
+    <link href="../../assets/css/personalized.css" rel="stylesheet" />
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+    <link href="../../assets/demo/demo.css" rel="stylesheet" />
+  </head>
+
+
+  <body class="index-page sidebar-collapse pt-5">
+    
+    <!-- NAVBAR -->
+    <nav
+      class="navbar navbar-expand-lg fixed-top"
+    >
+      <div class="container">
+        <div class="navbar-translate">
+          <a
+            class="navbar-brand"
+            href="../../index.html"
+            rel="tooltip"
+            title="Brand"
+            data-placement="bottom"
+          >
+            Francisco Silva
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navigation"
+            aria-controls="navigation-index"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-bar bar1"></span>
+            <span class="navbar-toggler-bar bar2"></span>
+            <span class="navbar-toggler-bar bar3"></span>
+          </button>
+        </div>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navigation"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                rel="tooltip"
+                title="Home"
+                data-placement="bottom"
+                href="../../index.html#home"
+              >
+                Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                rel="tooltip"
+                title="About"
+                data-placement="bottom"
+                href="../../index.html#about"
+              >
+                About
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                rel="tooltip"
+                title="Projects"
+                data-placement="bottom"
+                href="../../index.html#projects"
+              >
+                Projects
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                rel="tooltip"
+                title="Contact"
+                data-placement="bottom"
+                href="../../index.html#contact"
+              >
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- END Navbar -->
+
+    <!-- PROJECT DESCRIPTION -->
+    <section style="padding-top: 80px; padding-bottom: 60px; padding-right: 20%; padding-left: 20%;">
+      <div>
+        <img src="../../assets/img/projects/face-recognition/face_recognition.jpg" class="rounded" style="display: block; width: 100%; margin-bottom: 50px; box-shadow: 0 0 20px rgb(0 0 0 / 0.05);"></img>
+      </div>
+      <div>
+        <!-- Description -->
+        <h2 class="fw-bold pb-3">Face Recognition</h2>
+        <h5><span class="fw-bolder pe-2">Project Type:</span> Web + Server</h5>
+        <h5><span class="fw-bolder pe-2">Context:</span> Online Course</a></h5>
+        <h5><span class="fw-bolder pe-2">Date:</span> February 2020</h5>
+        <p class="pt-4">Created a web application to detect faces from an image prompted to the user, as a final project of the Udemy online course "The Complete Web Developer in 2019: Zero to Mastery".</p>
+        <p class="pt-2">The user is required to paste the link of a picture available online (searched in Google, for example). From the server-side, the web app uses a Face Detection Model provided by Clarifai API to identify the faces in the picture, which are therefore shown in the client-side. The app also has an authentication system, allowing the users to register, log in and log out.</p>
+        <!-- Links -->
+        <div class="d-flex pt-3 flex-row justify-content-start">
+          <div class="rounded-pill me-3" style="border: 1px solid #222222;"> 
+            <a
+              class=""
+              rel="tooltip"
+              title="GitHub"
+              data-placement="bottom"
+              href="https://github.com/francisco-f-silva/facerecognition"
+              target="_blank"
+              style="display: block; padding: .5rem .6rem; color: #222222;"
+            >
+              <i class="fa fa-github"></i>
+              <span>GitHub</span>
+            </a>
+          </div>
+          <div class="rounded-pill" style="border: 1px solid #222222;"> 
+            <a
+              class=""
+              rel="tooltip"
+              title="Trial"
+              data-placement="bottom"
+              href="https://face-recognition-the-app.herokuapp.com/"
+              target="_blank"
+              style="display: block; padding: .5rem .6rem; color: #222222;"
+            >
+              <i class="fa fa-laptop"></i>
+              <span>Try it</span>
+            </a>
+          </div>
+        </div>
+        <p class="pt-5" style="font-size: small;">[ For demo purposes, you may use the credentials "test@gmail.com" with pass "test123". If the web app takes some time to load or log you in, please wait some seconds, since the servers will probably be "asleep" by the time. Make sure to use the link of the picture. ]</p>
+        <!-- Technologies -->
+        <h5 class="pt-5 pb-5"><span class="fw-bolder pe-2">Technologies:</span> Node.js | Express | PostgreSQL | React | Heroku</h5>
+      </div>
+    </section>
+    <!-- END Project Description -->
+
+    <!-- PROJECT DEMO OR IMAGES -->
+    <section style="padding-top: 120px; padding-bottom: 200px; padding-right: 20%; padding-left: 20%; background-color: #f2f2f2">
+      <div class="d-flex flex-column align-items-center mb-5">
+        <img src="../../assets/img/projects/face-recognition/login.png" class="rounded" style="display: block; width: 100%; max-width: 700px; box-shadow: 0 0 20px rgb(0 0 0 / 0.05);"></img>
+        <p class="pt-3 fw-bolder">Log-in page</p>
+      </div>
+      <div class="pt-5 d-flex flex-column align-items-center">
+        <img src="../../assets/img/projects/face-recognition/main-page.jpg" class="rounded" style="display: block; width: 100%; max-width: 800px; box-shadow: 0 0 20px rgb(0 0 0 / 0.05);"></img>
+        <p class="pt-3 fw-bolder">Main page (after logging-in)</p>
+      </div>
+    </section>
+    <!-- END Project Demo or Images -->
+
+    <!-- FOOTER -->
+    <footer class="footer" style="background-color: #222222">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <nav class="footer-nav">
+              <ul class="text-center text-md-start">
+                <li>
+                  <a href="https://www.creative-tim.com" target="_blank"
+                    >Creative Tim</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.creative-tim.com/license" target="_blank"
+                    >Licenses</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-md-7 credits ms-auto text-center text-md-end">
+            <span class="copyright">
+              ©
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              , made with <i class="fa fa-heart heart"></i> by Creative Tim & Francisco
+            </span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- END Footer -->
+
+    <!--   Core JS Files   -->
+    <script
+      src="../../assets/js/core/jquery.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="./assets/js/core/popper.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="../../assets/js/core/bootstrap.min.js"
+      type="text/javascript"
+    ></script>
+    <!-- Control Center for Paper Kit: parallax effects, scripts for the example pages etc -->
+    <script
+      src="../../assets/js/paper-kit.js?v=2.2.0"
+      type="text/javascript"
+    ></script>
+  
+  </body>
+
+</html>

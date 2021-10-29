@@ -1,8 +1,6 @@
 # My personal website
 
-This webpage was made as a way to show who i am together with the projects i've been doing. The website was made using an awesome template from [Creative Tim](https://www.creative-tim.com/), called [Paper Kit 2 - Free Bootstrap 4 UI Kit](http://demos.creative-tim.com/paper-kit-2).
-
-_The following information was preserved from the original README. Some chapters were erased._
+This webpage was made as a way to show my projects. The website was initially made using a cool template from [Creative Tim](https://www.creative-tim.com/), called [Paper Kit 2 - Free Bootstrap 4 UI Kit](http://demos.creative-tim.com/paper-kit-2), but was modified over the time and no longer looks like the original.
 
 ## Table of Contents
 

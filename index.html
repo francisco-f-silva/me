@@ -14,7 +14,9 @@
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. -->
 
 <!DOCTYPE html>
+
 <html lang="en">
+  
   <head>
     <meta charset="utf-8" />
     <link
@@ -22,7 +24,7 @@ The above copyright notice and this permission notice shall be included in all c
       sizes="76x76"
       href="./assets/img//apple-icon.png"
     />
-    <link rel="icon" type="image/png" href="./assets/img//profile_icon.png" />
+    <link rel="icon" type="image/png" href="./assets/img/profile_icon.png" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>
       Francisco Silva
@@ -43,12 +45,14 @@ The above copyright notice and this permission notice shall be included in all c
     <!-- CSS Files -->
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
     <link href="./assets/css/paper-kit.css?v=2.2.0" rel="stylesheet" />
-    <!-- CSS Just for demo purpose, don't include it in your project -->
+    <link href="./assets/css/personalized.css" rel="stylesheet" />
     <link href="./assets/demo/demo.css" rel="stylesheet" />
   </head>
 
+
   <body class="index-page sidebar-collapse">
-    <!-- Navbar -->
+    
+    <!-- NAVBAR -->
     <nav
       class="navbar navbar-expand-lg fixed-top navbar-transparent"
       color-on-scroll="300"
@@ -59,14 +63,13 @@ The above copyright notice and this permission notice shall be included in all c
             class="navbar-brand"
             href=""
             rel="tooltip"
-            title="Coded by Creative Tim"
+            title="Brand"
             data-placement="bottom"
-            target="_blank"
           >
-            Home page
+            Francisco Silva
           </a>
           <button
-            class="navbar-toggler navbar-toggler"
+            class="navbar-toggler"
             type="button"
             data-toggle="collapse"
             data-target="#navigation"
@@ -88,295 +91,236 @@ The above copyright notice and this permission notice shall be included in all c
               <a
                 class="nav-link"
                 rel="tooltip"
-                title="Check me on LinkedIn"
+                title="Home"
                 data-placement="bottom"
-                href="https://www.linkedin.com/in/franciscocpfsilva/"
-                target="_blank"
+                href="#home"
               >
-                <i class="fa fa-linkedin"></i>
-                LinkedIn
+                Home
               </a>
             </li>
             <li class="nav-item">
               <a
                 class="nav-link"
                 rel="tooltip"
-                title="Star on GitHub"
+                title="About"
                 data-placement="bottom"
-                href="https://github.com/francisco-f-silva"
-                target="_blank"
+                href="#about"
               >
-                <i class="fa fa-github"></i>
-                GitHub
+                About
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                rel="tooltip"
+                title="Projects"
+                data-placement="bottom"
+                href="#projects"
+              >
+                Projects
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                rel="tooltip"
+                title="Contact"
+                data-placement="bottom"
+                href="#contact"
+              >
+                Contact
               </a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <!-- End Navbar -->
-    <!-- Background image -->
-    <div
-      class="page-header page-header-xs"
-      data-parallax="true"
-      style="background-image: url('./assets/img/little-black-lake-banner.jpg');"
-    >
-      <div class="filter"></div>
-    </div>
-    <!-- End Background image -->
-    <div class="section profile-content" style="background-color: #f4f3ef">
-      <div class="container">
-        <!-- Profile -->
-        <div class="owner">
-          <div class="avatar">
-            <img
-              src="./assets/img/francisco_silva.png"
-              alt="Circle Image"
-              class="img-circle img-no-padding img-responsive"
-            />
-          </div>
-          <div class="name">
-            <h4 class="title">
-              Francisco Silva
-              <br />
-            </h4>
-            <h6 class="description">Software Engineering student | ISEP</h6>
-          </div>
+    <!-- END Navbar -->
+
+    <!-- BACKGROUND IMAGE -->
+    <section id="home">
+      <div
+        class="page-header"
+        data-parallax="true"
+        style="background-image: url('./assets/img/backgrounds/login-image.jpg');"
+      >
+        <div class="text-center">
+          <h1 class="text-white fw-bolder">Hi! I'm Francisco.</h1>
+          <h3 class="text-white fw-bolder">Software Engineer based in Europe.</h3>
         </div>
-        <!-- End Profile -->
-        <!-- Presentation -->
-        <div class="row">
-          <div class="col-md-7 mt-3 ml-auto mr-auto text-center">
-            <div class="d-flex flex-column justify-content-between">
-              <p>
-                Having finished my M.Sc. degree in Medicine, I changed paths and started 
-                a new challenge in 2018: being a Software Engineer. Currently I'm on my 
-                last year of a B.Sc. degree in Porto, Portugal, while working part-time 
-                for a tech start-up.  
-              </p>
-              <p>
-                While eager to learn, I love organization and aim at doing things the best I can. 
-                I consider myself a really rational person and I like having my time to think before 
-                I start tackling a problem, whatever it is. I believe spending a little bit more 
-                time on planning brings its rewards ahead.
-              </p>
-              <p>
-                My greatest hobby is playing <a href="https://www.youtube.com/watch?v=HZZT3thsGE4">padel</a>, 
-                a sport with some similarities to tennis. You play it in doubles and it's the most addictive 
-                sport ever! In general, I'm a sports fan and I try to stay pretty active.
-              </p>
+      </div>
+    </section>
+    <!-- END Background image -->
+    
+    <!-- ABOUT -->
+    <section id="about" class="section profile-content pt-100 pb-100 bg-white">
+      <div class="container">
+        <div class="row gy-3">
+          <!-- About Image -->
+          <div class="col-lg-4 col-md-5">
+            <div class="owner">
+              <img
+                src="./assets/img/francisco_silva_color.png"
+                alt="About Image"
+                class="img-no-padding img-responsive about-img"
+              />
             </div>
           </div>
+          <!-- END About Image -->
+          <!-- Free column -->
+          <div class="col-lg-1 col-md-1"></div>
+          <!-- END Free column -->
+          <!-- About Text -->
+          <div class="col-lg-7 col-md-6">
+            <h2 class="mt-1 mb-2">About me.</h2>
+            <h5 class="mb-4">Software Engineer</h5>
+            <div>
+              <p class="pb-2">
+                While finishing my studies in Medicine, I realized it wasn’t what I wanted to do for the next years of my life. From there on, my interest in problem solving led me to programming and, not long after, I was working on being a Software Engineer.  
+              </p>
+              <p class="pb-2">
+                These last years I’ve been studying and gaining some experience in the field (more info on LinkedIn). So now I’m looking for a bigger challenge and intend to go work and live abroad from Portugal, something I’ve wanted to experience for a while after having been abroad for some months.
+              </p>
+              <p class="pb-2">
+                I feel eager to learn, to be welcomed into a team and to give my contribution for a project I identify with. I aim at doing things the best I can, and still feel I need to prove something to myself. So I expect nothing from me than to give my best, wherever I am. My greatest hobby is playing <a href="https://www.youtube.com/watch?v=HZZT3thsGE4" target="_blank">padel</a>, a sport with some similarities to tennis. You play it in doubles and it's the most addictive sport ever!
+              </p>
+            </div>
+            <!-- Links for social media -->
+            <div class="d-flex pt-3 flex-row justify-content-start">
+              <div class="rounded-circle" style="background-color: #222222;">   
+                <a
+                  class="text-white"
+                  rel="tooltip"
+                  title="Check me on LinkedIn"
+                  data-placement="bottom"
+                  href="https://www.linkedin.com/in/franciscocpfsilva/"
+                  target="_blank"
+                  style="display: block; padding: .5rem .6rem;"
+                >
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </div> 
+              <div class="rounded-circle ms-3" style="background-color: #222222;"> 
+                <a
+                  class="text-white"
+                  rel="tooltip"
+                  title="Check my GitHub"
+                  data-placement="bottom"
+                  href="https://github.com/francisco-f-silva"
+                  target="_blank"
+                  style="display: block; padding: .5rem .6rem;"
+                >
+                  <i class="fa fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <!-- END Links for social media -->
+          </div>
+          <!-- END About Text -->
         </div>
-        <!-- End Presentation -->
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
       </div>
-      <div class="section" style="background-color: #f8f7f5; display: flex; justify-content: space-evenly; align-items: center">
-        <img src="./assets/img/Isep-logo.png" style="width: 100px; height: 37px"/>
-        <img src="./assets/img/critical-software-logo.png" style="width: 50px; height: 50px"/>
-        <img src="./assets/img/replai-logov3.png" style="width: 80px; height: 20px"/>
-      </div>  
-      <div class="section profile-content" style="background-color: #f4f3ef">
-        <!-- Projects -->
-        <div>
-          <br />
-          <br />
-          <br />
-          <br />
-          <h2 class="text-center">Projects</h2>
-          <br />
-          <br />
-          <div class="nav-tabs-navigation">
-            <div class="nav-tabs-wrapper">
-              <ul class="nav nav-tabs" role="tablist">
-                <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    data-toggle="tab"
-                    href="#public_transport"
-                    role="tab"
-                    >Planning of Public Transports</a
+    </section>
+    <!-- END About -->
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section profile-content pt-100 pb-100" style="background-color: #f2f2f2">
+      <div class="container pb-100">
+        <h2 class="pb-100 text-center">My projects</h2>
+        <div class="row gx-5 gy-5">
+          <div class="div-project col-12 col-sm-6 col-lg-4 p-3 ">
+            <a href="pages/projects/energy-forecasting.html" style="color: #66615B">
+              <div class="text-center align-middle" id="gecad">
+                <img class="rounded" src="./assets/img/projects/energy-forecasting/analysis-small.png" alt="Project Image" style="width: 100%;"/>
+                <h5 class="pt-3 fs-6 fw-normal">Analysis of Energy Forecasting</h5>
+              </div>
+            </a>
+          </div>
+          <div class="div-project col-12 col-sm-6 col-lg-4 p-3 ">
+            <a href="pages/projects/public-transport.html" style="color: #66615B">
+              <div class="text-center align-middle" id="public-transport">
+                <img class="rounded" src="./assets/img/projects/public-transport/user-menu.png" alt="Project Image" style="width: 100%;"/>
+                <h5 class="pt-3 fs-6 fw-normal">Managing a Public Transport Network</h5>
+              </div>
+            </a>
+          </div>
+          <div class="div-project col-12 col-sm-6 col-lg-4 p-3 ">
+            <a href="pages/projects/face-recognition.html" style="color: #66615B">
+              <div class="text-center align-middle" id="face-recognition">
+                <img class="rounded" src="./assets/img/projects/face-recognition/main-page.jpg" alt="Project Image" style="width: 100%;"/>
+                <h5 class="pt-3 fs-6 fw-normal">Face Recognition</h5>
+              </div>
+            </a>
+          </div>
+          <div class="div-project col-12 col-sm-6 col-lg-4 p-3 ">
+            <a href="pages/projects/shop-floor-system.html" style="color: #66615B">
+              <div class="text-center align-middle" id="face-recognition">
+                <img class="rounded" src="./assets/img/projects/shop-floor-system/shop-floor-animation.jpeg" alt="Project Image" style="width: 100%;"/>
+                <h5 class="pt-3 fs-6 fw-normal">Software for Industrial Units</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END Projects -->
+
+    <!-- CONTACT -->
+    <section id="contact" class="section profile-content pt-100 pb-100 bg-white">
+      <div class="container">
+        <h2 class="mt-1 mb-5 col-lg-10 offset-lg-1">Get in touch.</h2>
+        <div class="col-lg-10 offset-lg-1">
+          <form id="contact-form" action="mailto:franciscocpfsilva@gmail.com" method="POST" enctype="text/plain">
+            <!--<input type="hidden" name="form-name" value="contactForm" />-->
+            <div class="row gy-4">
+              <!--
+              <div class="col-md-12 form-group mb-4">
+                <input type="text" name="name" class="form-control con-validate" id="contact-name" placeholder="Name" minlength="3" />
+              </div>
+              <div class="col-md-12 form-group mb-4">
+                <input type="email" name="mail" class="form-control con-validate" id="contact-email" placeholder="Email" />
+              </div>
+              -->
+              <!--
+              <div class="col-md-12 form-group">
+                <input type="text" name="subject" class="form-control con-validate" id="contact-subject" placeholder="Subject" />
+              </div>
+              -->
+              <div class="col-md-12 form-group">
+                <textarea  name="body" class="form-control con-validate" id="contact-message" placeholder="How can i help you?" rows="6"></textarea>
+              </div>
+              <div class="col-md-12 mt-5">
+                <button id="contact-submit" class="mt-30 main-btn">
+                  Send Message
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- END Contact -->
+
+    <!-- FOOTER -->
+    <footer class="footer" style="background-color: #222222">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <nav class="footer-nav">
+              <ul class="text-center text-md-start">
+                <li>
+                  <a href="https://www.creative-tim.com" target="_blank"
+                    >Creative Tim</a
                   >
                 </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link"
-                    data-toggle="tab"
-                    href="#project_shop_floor"
-                    role="tab"
-                    >Shop-Floor System</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link"
-                    data-toggle="tab"
-                    href="#project_face_recognition"
-                    role="tab"
-                    >Face Recognition</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a 
-                    class="nav-link" 
-                    data-toggle="tab" 
-                    href="#project_star_wars" 
-                    role="tab"
-                    >Star Wars</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link"
-                    data-toggle="tab"
-                    href="#project_social_network_analysis"
-                    role="tab"
-                    >Social Network Analysis</a
+                <li>
+                  <a href="https://www.creative-tim.com/license" target="_blank"
+                    >Licenses</a
                   >
                 </li>
               </ul>
-            </div>
+            </nav>
           </div>
-        </div>
-        <!-- End Projects -->
-        <!-- Tab panes -->
-        <div class="tab-content">
-          <div
-            class="tab-pane active text-center ml-auto mr-auto col-md-6"
-            id="public_transport"
-            role="tabpanel"
-          >
-            <img src="./assets/img/public_transport_system.png" alt="Public Transport Planning System" width="400" height="200" style="margin-bottom:3%;"/>
-            <p class="text-muted" style="font-size:12px">
-              (This figure serves merely as an example and doesn't belong to the software system currently being produced.)
-            </p>
-            <br>
-            <h6 class="text-muted">October 2020 - January 2021</h6>
-            <p class="text-muted">
-              Currently developing a set of REST APIs to manage the information and
-              planning of public transportation. These APIs are accessible through a 
-              Single Page Application. Technologies used: Angular, TypeScript, Node.js, 
-              Express, MongoDB, Heroku.
-            </p>
-            <div class="mt-3">
-              <a
-                href="http://lapr5-3nb-3-spa.herokuapp.com/"
-                class="btn btn-warning btn-round mr-2"
-                >Give it a try</a
-              >
-            </div>
-          </div>
-          <div
-            class="tab-pane text-center ml-auto mr-auto col-md-6"
-            id="project_shop_floor"
-            role="tabpanel"
-          >
-            <img src="./assets/img/shop_floor_system.png" alt="Shop Floor Management System" width="400" height="200" style="margin-bottom:5%;"/>
-            <h6 class="text-muted">March-June 2020</h6>
-            <p class="text-muted">
-              Software system to process information related to industrial
-              factories, namely i) production orders and their execution, ii)
-              machines' working time, iii) consumptions and iv) produced
-              quantities. Main application allows user 
-              interaction through a command-line interface (CLI). Applications were 
-              developed using Java and C.
-            </p>
-            <div class="mt-3">
-              <a
-                href="https://bitbucket.org/franciscocpfsilva/lei_isep_2019_20_sem4_2nb_1180640_1161884_1171317_1171857/src/master/"
-                class="btn btn-warning btn-round ml-2"
-                >Explore code</a
-              >
-            </div>
-          </div>
-          <div
-            class="tab-pane text-center ml-auto mr-auto col-md-6"
-            id="project_face_recognition"
-            role="tabpanel"
-          >
-            <img src="./assets/img/face_recognition.jpg" alt="Face Recognition image" width="400" height="200" style="margin-bottom:5%;"/>
-            <h6 class="text-muted">February 2020</h6>
-            <p class="text-muted">
-              Development of a web app to detect faces on images given by the
-              user, as a final project of the Udemy online course "The Complete
-              Web Developer in 2019: Zero to Mastery". Front-end in React, back-end in Node.js, 
-              PostgreSQL database. App was deployed using Heroku.
-            </p>
-            <div class="mt-3">
-              <a
-                href="https://face-recognition-the-app.herokuapp.com/"
-                class="btn btn-warning btn-round mr-2"
-                >Give it a try</a
-              >
-              <a
-                href="https://github.com/francisco-f-silva/facerecognition"
-                class="btn btn-warning btn-round ml-2"
-                >Explore code</a
-              >
-            </div>
-          </div>
-          <div
-            class="tab-pane text-center ml-auto mr-auto col-md-6"
-            id="project_star_wars"
-            role="tabpanel"
-          >
-            <img src="./assets/img/Star_Wars_Logo.svg" alt="Star Wars Logo" width="200" height="100" style="margin-bottom:5%;"/>
-            <h6 class="text-muted">January 2020</h6>
-            <p class="text-muted">
-              Single page application created using React. It uses the Star Wars API (swapi) in order to obtain some planets from the Star Wars' world and compare their characteristics side by side.
-            </p>
-            <div class="mt-3">
-              <a
-                href="https://francisco-f-silva.github.io/starwars/"
-                class="btn btn-warning btn-round mr-2"
-                >Give it a try</a
-              >
-              <a
-                href="https://github.com/francisco-f-silva/starwars"
-                class="btn btn-warning btn-round ml-2"
-                >Explore code</a
-              >
-            </div>
-          </div>
-          <div
-            class="tab-pane text-center ml-auto mr-auto col-md-6"
-            id="project_social_network_analysis"
-            role="tabpanel"
-          >
-            <img src="./assets/img/sna.png" alt="Social Network Analysis" width="400" height="300" style="margin-bottom:5%;"/>
-            <h6 class="text-muted">December 2018</h6>
-            <p class="text-muted">
-              Java application for Social Network Analysis, including
-              implementation of various network measures (Eigenvector
-              Centrality, simplified version of Google’s Page Rank algorithm,
-              Powers of the Adjacency Matrix, ...).
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <footer class="footer" style="background-color: #f4f3ef; opacity: 0.5">
-      <div class="container">
-        <div class="row">
-          <nav class="footer-nav">
-            <ul>
-              <li>
-                <a href="https://www.creative-tim.com" target="_blank"
-                  >Creative Tim</a
-                >
-              </li>
-              <li>
-                <a href="https://www.creative-tim.com/license" target="_blank"
-                  >Licenses</a
-                >
-              </li>
-            </ul>
-          </nav>
-          <div class="credits ml-auto">
+          <div class="col-md-7 credits ms-auto text-center text-md-end">
             <span class="copyright">
               ©
               <script>
@@ -388,6 +332,8 @@ The above copyright notice and this permission notice shall be included in all c
         </div>
       </div>
     </footer>
+    <!-- END Footer -->
+
     <!--   Core JS Files   -->
     <script
       src="./assets/js/core/jquery.min.js"
@@ -401,28 +347,12 @@ The above copyright notice and this permission notice shall be included in all c
       src="./assets/js/core/bootstrap.min.js"
       type="text/javascript"
     ></script>
-    <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
-    <script src="./assets/js/plugins/bootstrap-switch.js"></script>
-    <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
-    <script
-      src="./assets/js/plugins/nouislider.min.js"
-      type="text/javascript"
-    ></script>
-    <!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
-    <script src="./assets/js/plugins/moment.min.js"></script>
-    <script
-      src="./assets/js/plugins/bootstrap-datepicker.js"
-      type="text/javascript"
-    ></script>
     <!-- Control Center for Paper Kit: parallax effects, scripts for the example pages etc -->
     <script
       src="./assets/js/paper-kit.js?v=2.2.0"
       type="text/javascript"
     ></script>
-    <!--  Google Maps Plugin    -->
-    <script
-      type="text/javascript"
-      src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"
-    ></script>
+  
   </body>
+
 </html>
